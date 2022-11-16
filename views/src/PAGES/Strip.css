@@ -1,0 +1,180 @@
+.strip{
+    position: relative;
+    height: 45vh;
+    width: 100%;
+    /* background-color: #78a4e1; */
+    color: white;
+    overflow: hidden;
+}
+
+.strip video{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.strip_card{
+    position: absolute;
+    top: 10%;
+    z-index: 3;
+    /* right: 10%; */
+    display: flex;
+    justify-content: center;
+    padding: 2vmax;
+    font-size: 1.7vmax;
+    /* height: 45vh; */
+    width: 100%;
+    /* background-color: #12161d; */
+    color: white;
+}
+
+.strip_btn{
+    bottom: -10%;
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    /* width: 25vmax; */
+}
+
+.strip_btn:hover{
+    cursor: pointer;
+    background-color:#08c0c8;
+    color: black;
+    border: 1px solid black;
+}
+
+.strip_left{
+    position: absolute;
+    left: 5%;
+    height: 60vh;
+    width: 50%;
+    /* background-color: #fff; */
+}
+
+.strip_left h2{
+    letter-spacing: 0.12vmax;
+    color: white;
+    font-size: 2vmax;
+}
+
+.strip_left p{
+    width: 70%;
+}
+
+.strip_left input{
+    position: absolute;
+    top: 50%;
+    height: 3vmax;
+    width: 80%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 2vmax;
+    color: white;
+}
+
+.strip_left form button{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+.footer{
+    position: absolute;
+    z-index: 4;
+    /* bottom: 0%; */
+    height: 60vh;
+    width: 100%;
+    background-color: #131922;
+    /* background-color: #181f29; */
+}
+
+.footer_left{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 25%;
+    left: 3%;
+    width: 12%;
+    /* background-color: rgb(248, 184, 184); */
+}
+
+.footer img{
+    margin-top: -5vmax;
+    margin-left: 41vmax;
+    height: 25vh;
+}
+
+.footer_right{
+    display: flex;
+    position: absolute;
+    right: 8%;
+    height: 70%;
+    width: 40%;
+    background-color: rgb(254, 121, 121);
+}
+
+
+#icons{
+    position: absolute;
+    top: 63%;
+    left: 25%;
+    height: 3vmax;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #fff; */
+}
+
+.icon{
+    position: relative;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    /* border-radius: 50%; */
+    /* background-color: #385b9a; */
+}
+
+.icon img{
+    height:5vmax;
+    font-size: 2vmax;
+
+}
+
+.contactInfo{
+    opacity: 0.6;
+    top: 68%;
+    left: 46%;
+    color: white;
+    position: absolute;
+}
+
+#contactNumber{
+    top: 74%;
+    right: 3%;
+    letter-spacing: 0.1vmax;
+}
+
+#contact_location{
+    top: 80%;
+    left: 44%;
+}
+
+#strip_icons{
+    top: 20%;
+    right: 0%;
+    position: absolute;
+    z-index: 99999;
+    /* background-color: #fff; */
+}
+
+.strip_icon{
+    opacity: 0.6;
+    margin-bottom: 2vmax;
+}

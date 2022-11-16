@@ -1,0 +1,82 @@
+.segments{
+    position: relative;
+    margin-left: 5%;
+    height: 90vh;
+    width: 90%;
+    background-color: #131922;
+    border-radius: 1vmax;
+}
+
+.segment_cards{
+    padding: 1vmax;
+    border-radius: 0.5vmax;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 90%;
+    height: 65vh;
+    background-color:#08c0c8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.segments #segmentTitle{
+    position: absolute;
+    left: 35%;
+    top: -8%;
+    color: white;
+    font-size: 2.5vmax;
+    font-family: Acratica-Demo;
+}
+
+.segment_card{
+    position: relative;
+    /* background-color: rgb(124, 112, 150); */
+    height: 50vh;
+    width: 28%;
+    text-align: center;
+
+}
+
+.segment_card img{
+    height: 20vh;
+    position: absolute;
+    top: 2%;
+    left: 28%;
+}
+
+.segment_card h1{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 1.3vmax;
+    color: white;
+}
+
+.segment_card_text{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.segment_card p{
+    color: white;
+    font-size: 1vmax;
+}
+
+#card_btn{
+    position: absolute;
+    left: 25%;
+    background-color: #344256;
+    color: white;
+    font-size: 1vmax;
+}
+
+#card_btn:hover{
+    cursor: pointer;
+    background-color: #181f29;
+
+}

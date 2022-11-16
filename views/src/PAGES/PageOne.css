@@ -1,0 +1,136 @@
+.pageOne{
+    height: 100vh;
+    width: 100%;
+    background-color: #181f29;
+    
+}
+
+.home{
+    background-color: #181f29;
+}
+
+.pageOne_MainBox{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    height: 90vh;
+    width: 95%;
+    background-color: #181f29;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.pageOne_MainBox video{
+    position: absolute;
+    z-index: -1;
+    /* width: 100%; */
+}
+
+.mainBox_centerText{
+    position: relative;
+    margin-top: 6vmax;
+    height: 60vh;
+    width: 60%;
+    /* background-color: rgb(144, 5, 5); */
+    /* position:absolute; */
+
+}
+
+.mainBox_centerText #mainBox_img1{
+    opacity: 0.15;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 30vmax;
+}
+
+.mainBox_centerText .mainBox_star{
+    opacity: 0.3;
+    position: absolute;
+
+}
+
+.mainBox_centerText h1{
+    text-align: center;
+    margin-right: 2vmax;
+    font-size: 4vmax;
+    color: white;
+    font-family: ogg;
+}
+
+.mainBox_centerText p{
+    position: absolute;
+    font-size: 1.5vmax;
+    text-align: center;
+    color: white;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,0);
+    letter-spacing: 0.2vmax;
+    font-family: product sans;
+}
+
+.mainBox_centerText button{
+    position: absolute;
+    left: 42%;
+    top: 43%;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vmax;
+    padding: 1vmax;
+    font-size: 1.2vmax;
+    border-radius: 1.3vmax;
+    background-color:#08c0c8;
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.mainBox_serviceList{
+    position: absolute;
+    bottom: 7%;
+    left: 20%;
+    /* transform: translate(-50%,0); */
+    text-align: center;
+    color: white;
+    display: flex;
+    width: 60%;
+   
+}
+
+
+
+.mainBox_serviceList .mainBox_service{
+    padding-right: 1vmax;
+    margin-left: 1vmax;
+    border-right: 1px solid rgba(255, 255, 255, 0.513);
+}
+.mainBox_service:nth-child(7){
+    /* color: red; */
+    border: none;
+
+}
+
+.segment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    /* background-color: #181f29; */
+    color: white;
+}
+
+

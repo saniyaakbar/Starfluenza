@@ -1,0 +1,112 @@
+.services{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #181f29;
+}
+
+.services>h1{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-55%,0);
+    opacity: 0.86;
+    color: white;
+    margin-left: 5%;
+    width: 100%;
+    font-size: 2.8vmax;
+    text-align: center;
+    font-family: ogg;
+}
+
+.service_cards{
+    padding: 2vmax;
+    height: 58vh;
+    width: 43%;
+    /* background-color: antiquewhite; */
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+
+
+.service_card{
+    margin: 1vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 45vh;
+    width: 18vmax;
+    background-color: #fff;
+    border-radius: 0.3vmax;
+    color: white;
+    overflow: hidden;
+    transition: transform .4s ease;
+}
+
+.main_service_class{
+    /* background-image: url('../ASSETS/demoImage.avif');
+    background-size: cover; */
+    font-size: 2vmax;
+    color: white;
+    border-radius: 0.3vmax;
+    position: absolute;
+    left: 30%;
+    z-index: 8;
+    transition: transform .4s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.secondary_service_class{
+    position: absolute;
+    top: 10%;
+    font-size: 1.5vmax;
+    opacity: 0.5;
+    height: 40vh;
+    transition: transform .4s ease;
+}
+
+.no_display{
+    display: none;
+}
+
+.left_service_card{
+    display: flex;
+    left: 10%;
+    background-image: url('../ASSETS/demoImage2.avif');
+    background-size: cover;
+}
+
+.left_service_btn{
+    position: absolute;
+    z-index: 7;
+    top: 40%;
+    left: 18%;
+}
+
+.right_service_card{
+    display: flex;
+    left: 50%;
+    background-image: url('../ASSETS/demoImage3.avif');
+    background-size: cover;
+}
+
+.right_service_btn{
+    position: absolute;
+    z-index: 7;
+    top: 40%;
+    left: 75%;
+}
+
+.service_card_image{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+}
+
+.service_card>h3{
+    position: absolute;
+
+}

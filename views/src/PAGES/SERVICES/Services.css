@@ -1,0 +1,340 @@
+.servicePage{
+    height: 200vh;
+    width: 100%;
+    background-color: #181f29;
+    color: white;
+}
+
+.SPOne{
+    height: 155vh;
+    width: 100%;
+}
+
+.SPContainer{
+    overflow: hidden;
+    position: relative;
+    margin-top: 1vmax;
+    margin-left: 3vmax;
+    height: 80vh;
+    width: 95%;
+    border-radius: 1vmax;
+    background-color: #131922;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.SPContainer video{
+    width: 100%;
+}
+
+.SP_Text{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    height: 70%;
+    width: 60%;
+}
+
+.SPContainer h1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-size: 3.5vmax;
+    font-family: ogg;
+}
+.SPContainer span{
+    color:#08c0c8;
+}
+
+.SPContainer p{
+    position: absolute;
+    top: 73%;
+    left: 5%;
+    font-size: 1.5vmax;
+    letter-spacing: 0.13vmax;
+}
+
+.SP_cards{
+    height: 35vh;
+    width: 70%;
+    /* background-color: brown; */
+    position: absolute;
+    bottom:-15%;
+    left: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.SP_cards2{
+    height: 35vh;
+    width: 55%;
+    /* background-color: brown; */
+    position: absolute;
+    bottom:-58%;
+    left: 23%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.SP_card{
+    position: relative;
+    height: inherit;
+    width: 20%;
+    /* background-color: #fff; */
+    overflow: hidden;
+    align-content: center;
+    opacity: 0.6;
+    border-radius: 0.3vmax;
+    text-align: center;
+    margin: 0.5vmax;
+    
+}
+
+.SP_card2{
+    width: 26%;
+}
+
+.SP_card:hover{
+    opacity: 1;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.SP_card h1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 1.5vmax;
+}
+
+.SP_card img{
+    width: 100%;
+}
+
+
+/* .SP_card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  margin: -150px;
+  float: left;
+  perspective: 500px;
+} */
+
+.SP_content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.SP_card:hover .SP_content {
+  transform: rotateY(180deg);
+  transition: transform 1.2s;
+}
+
+.SP_front,
+.SP_back {
+  position: absolute;
+  height: inherit;
+  width: 100%;
+  background: white;
+  /* line-height: 300px; */
+  color: #ffffff;
+  text-align: center;
+  /* font-size: 60px; */
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.SP_back {
+  padding: 0.5vmax;
+  background:#08c0c8;;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.SP_back h1{
+    position: relative;
+    margin-bottom: 2vmax;
+    top: 15%;
+}
+
+.servicesSeg2{
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-color: #181f29;
+    display: flex;
+    overflow: hidden;
+}
+
+.servicesSeg2_left{
+    position: relative;
+    height: inherit;
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.servicesSeg2_left img{
+    height: 70vh;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+} 
+
+.servicesSeg2_right{
+    height: inherit;
+    width: 50%;
+    /* background-color: rgb(168, 127, 255); */
+}
+
+span{
+    color: #08c0c8;
+    font-size: 2.6vmax;
+}
+
+.servicesSeg2 .serviceSeg2_text{
+    position: absolute;
+    padding: 1vmax;
+    top: 12%;
+    height: 60vh;
+    width: 85%;
+    /* background-color: rgb(69, 7, 7); */
+}
+
+.servicesSeg2 .serviceSeg2_text h1{
+    font-family: ogg;
+}
+.servicesSeg2 .serviceSeg2_text h1:nth-child(1){
+/* color: red; */
+font-size: 1.5vmax;
+position: absolute;
+left: 8%;
+top: 12%;
+
+}
+
+.servicesSeg2 .serviceSeg2_text h1:nth-child(2) span:nth-child(1){
+    /* color: red; */
+    font-size: 7vmax;
+}
+
+.servicesSeg2 .serviceSeg2_text h1:nth-child(2){
+    /* color: red; */
+    margin-top: 2vmax;
+}
+
+.servicesSeg2 .serviceSeg2_text p{
+
+    width: 40%;
+}
+
+.serviceSeg2_text_p{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    width: 85%;
+}
+
+
+
+.servicesSeg3{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.servicesSeg3 video{
+    width: 100%;
+}
+
+.servicesSeg3_text{
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+
+.servicesSeg3_text button{
+    margin-left: 25vmax;
+    margin-top: 3vmax;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.servicesSeg3_text button:hover{
+    background-color: #08c0c8;
+    color: #131922;
+}
+
+.servicesSeg4{
+    height: 60vh;
+    width: 100%;
+    background-color: #131922;
+    display: flex;
+}
+
+.serviceSeg4_right{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: 40%;
+    /* background-color: brown; */
+}
+
+.serviceSeg4_left{
+    position: relative;
+    height: inherit;
+    width: 60%;
+    /* background-color: rgb(42, 165, 44); */
+}
+
+.serviceSeg4_text{
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    height: 48vh;
+    width: 90%;
+    /* background-color: rgb(255, 211, 211); */
+}
+
+.serviceSeg4_text h1{
+    font-family: ogg;
+    line-height: 3vmax;
+    margin-top: -1vmax;
+
+}
+
+.serviceSeg4_text p{
+    font-size: 1.1vmax;
+}
+
+.serviceSeg4_text p:nth-child(3){
+    /* color: #08c0c8; */
+    font-size: 1.8vmax;
+}
+
+.serviceSeg4_text span{
+    color: #08c0c8;
+}
+
+.serviceSeg4_right img{
+    height: 34vh;
+    margin-right: 5vmax;
+}

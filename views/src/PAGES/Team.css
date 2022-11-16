@@ -1,0 +1,87 @@
+.team{
+    position: relative;
+    height: 125vh;
+    width: 100%;
+    background-color: #181f29;
+    
+}
+
+.team h1{
+    position: absolute;
+    top: -7%;
+    left: 30%;
+    font-family: ogg;
+    font-size: 3vmax;
+    color: white;
+}
+
+.team_cards{
+    border-radius: 1vmax;
+    position: absolute;
+    top: 15%;
+    left:7%;
+    height: 100vh;
+    width: 85%;
+    background-color: #131922;
+}
+
+.team_card{
+    border-radius: 0.4vmax;
+    background-size: cover;
+    height: 50vh;
+    width: 20%;
+    background-color: #fff;
+}
+
+.team_card h1{
+    margin-left: -10vmax;
+    font-family: product sans;
+    font-size: 2vmax;
+}
+
+.team_card h2{
+    color: white;
+    margin-top: 4.3vmax;
+    /* margin-left: vmax; */
+}
+
+.team_card p{
+    font-style: italic;
+    color: white;
+}
+
+.team_text{
+    height: 30vh;
+    width: 40%;
+    /* background-color: #fff; */
+}
+
+.team_text:nth-child(1){
+    position: absolute;
+    right: 22%;
+    top: 8%;
+    /* background-color: bisque; */
+}
+
+
+#two{
+    position: absolute;
+    left: 30%;
+    top: 63%;
+    /* background-color: rgb(151, 97, 32); */
+}
+
+.team_card:nth-child(1){
+    margin-top: 2vmax;
+    background-image: url('../ASSETS/demoImage2.avif');
+    margin-left: 11vmax;
+    background-color: aqua;
+}
+
+.team_card:nth-child(2){
+    background-image: url("../ASSETS/demoImage4.avif");
+    margin-top: -4vmax;
+    margin-left: 60vmax;
+    background-color: rgb(71, 63, 102);
+}
+

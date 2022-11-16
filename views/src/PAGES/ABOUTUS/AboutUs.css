@@ -1,0 +1,79 @@
+.AboutUs{
+    position: relative;
+    height: 300vh;
+    width: 100%;
+    background-color: #181f29;
+    color: white;
+}
+
+.AboutSeg1{
+    position: relative;
+    height: 270vh;
+    width: 100%;
+    background-color: #181f29;
+}
+
+.AboutSeg1 h1{
+    position: absolute;
+    left: 43%;
+    /* top: 0%; */
+    font-size: 3vmax;
+    font-family: ogg;
+}
+
+.AboutSeg1 h4{
+    position: absolute;
+    left: 41%;
+    top: 3.5%;
+    letter-spacing: 0.13vmax;
+    /* font-size: 3vmax; */
+    font-family: ogg;
+}
+
+.allAboutSeg{
+    padding: 2vmax;
+    position: absolute;
+    top: 7%;
+}
+
+.eachSegment{
+    position: relative;
+    display: flex;
+    height: 40vmax;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.aboutSegText{
+    height: 30vmax;
+    width: 30%;
+    margin-right: 10vmax;
+}
+
+.aboutSegText h2{
+    font-size: 2.3vmax;
+    font-family: ogg;
+}
+
+.aboutSegText p{
+   margin-top: 2vmax;
+}
+
+.segImage{
+    margin-top: 2vmax;
+    margin-left: 15vmax;
+    height: 55vh;
+    width: 20%;
+    border-radius: 0.5vmax;
+}
+
+
+.segEven img{
+    position: absolute;
+    right: 10%;
+}
+
+.segEven .aboutSegText{
+    position: absolute;
+    left: 17%;
+}
