@@ -12,24 +12,18 @@ function AboutSeg1() {
         {
             title:"Our Vision",
             image: image1,
-            p1: "em csam veniam incidunt, ducimus iusto, maxime adipisci dicta quam ea, totam beatae earum illo laborum sit?Cum odit totam voluptates aliquid sequi iste tempore consequuntur amet eum exercitationem perferendis sunt esse mollitia quibusdam eius, voluptatibus, unde dicta fugit officiis in asperiores minima. Facere cupiditate veritatis iusto.",
-            p2:"Lorem ationem, officiis laudantium tenetur repellendus est? Blanditiis fuga soluta dolores maiores harum, porro quas dolorem quisquam corporis excepturi sit sequi suscipit?",
-            p3:"Lorem  exercitationem, officiis laudantium tenetur repellendus est? Blanditiis fuga soluta dolores maiores harum."
-        },
+            p1: "Starfluenza aims at helping Brands become the real Stars of their Niche with the most known faces sharing synergy. It is in true honesty that Starfluenza, unlike other Celebrity Platforms, wants to build a cultural mix of different genres of celebrities, niches of brands and show their combined power to take on the digital world."
+          },
         {
             title:"Our Mission",
             image: image2,
-            p1: "em csam veniam incidunt, ducimus iusto, maxime adipisci dicta quam ea, totam beatae earum illo laborum sit?Cum odit totam voluptates aliquid sequi iste tempore consequuntur amet eum exercitationem perferendis sunt esse mollitia quibusdam eius, voluptatibus, unde dicta fugit officiis in asperiores minima. Facere cupiditate veritatis iusto.",
-            p2:"Lorem ationem, officiis laudantium tenetur repellendus est? Blanditiis fuga soluta dolores maiores harum, porro quas dolorem quisquam corporis excepturi sit sequi suscipit?",
-            p3:"Lorem  exercitationem, officiis laudantium tenetur repellendus est? Blanditiis fuga soluta dolores maiores harum."
-        },
+            p1: "300M+ Brands, all striving to be the one that is remembered and our mission is to help them to become the one by connecting them to the right way to tell their story to the world, through the right face and voice. The digital age has made it easier for people to reach numbers, we aim to help you reach the hearts of your audience."
+           },
         {
             title:"Our Process",
             image: image3,
-            p1: "em csam veniam incidunt, ducimus iusto, maxime adipisci dicta quam ea, totam beatae earum illo laborum sit?Cum odit totam voluptates aliquid sequi iste tempore consequuntur amet eum exercitationem perferendis sunt esse mollitia quibusdam eius, voluptatibus, unde dicta fugit officiis in asperiores minima. Facere cupiditate veritatis iusto.",
-            p2:"Lorem ationem, officiis laudantium tenetur repellendus est? Blanditiis fuga soluta dolores maiores harum, porro quas dolorem quisquam corporis excepturi sit sequi suscipit?",
-            p3:"Lorem  exercitationem, officiis laudantium tenetur repellendus est? Blanditiis fuga soluta dolores maiores harum."
-        }
+            p1: "For centuries we have seen businesses grow based on names, concepts and art but now is the time when we combine them together and give it a face that shows the world, “What your Brand really is?” The Story of your Brand is what is going to make it the next big thing and the right Celebrity will make it known to the world as a STAR BRAND! "
+           }
     ]
 
     useEffect(() => {
@@ -53,8 +47,7 @@ function AboutSeg1() {
             <div className="aboutSegText">
             <h2>{e.title}</h2>
             <p>{e.p1}</p>
-            <p>{e.p2}</p>
-            <p>{e.p3}</p>
+            
             </div>
         </div>
        })}

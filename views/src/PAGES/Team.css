@@ -28,7 +28,7 @@
 .team_card{
     border-radius: 0.4vmax;
     background-size: cover;
-    height: 50vh;
+    min-height: 50vh;
     width: 20%;
     background-color: #fff;
 }
@@ -73,15 +73,76 @@
 
 .team_card:nth-child(1){
     margin-top: 2vmax;
-    background-image: url('../ASSETS/demoImage2.avif');
+    background-image: url('../ASSETS/founder/co-founder.jpeg');
     margin-left: 11vmax;
     background-color: aqua;
 }
 
 .team_card:nth-child(2){
-    background-image: url("../ASSETS/demoImage4.avif");
+    background-image: url("../ASSETS/founder/founder.jpg");
     margin-top: -4vmax;
     margin-left: 60vmax;
     background-color: rgb(71, 63, 102);
 }
 
+@media (max-width:500px){
+
+    .team{
+        height: 185vh;
+    }
+
+    .team h1 {
+        top: 3%;
+        left: 8%;
+    }
+
+    .team_cards{
+        height: 165vh;
+        top: 8%;
+    }
+    
+    .team_card{
+        width: 90%;
+        margin-left: -1vmax;
+    }
+
+
+    .team h1 {
+        top: 3%;
+        left: 8%;
+    }
+    
+    
+    .team_card:nth-child(1) {
+        margin-top: 5vmax;
+        margin-left: 2vmax;
+       
+    }
+    
+    .team_text:nth-child(1){
+        top: 35%;
+    }
+
+    .team_text p{
+        width: 200%;
+        margin-left: -55%;
+        font-size: 1.9vmax;
+    }
+
+    .team h2{
+        margin-top: 5vmax;
+        margin-left: -9vmax;
+    }
+
+    #two {
+       
+        left: 38%;
+        top: 85%;
+        
+    }
+
+    .team_card:nth-child(2) {
+        margin-top: 33vmax;
+        margin-left: 3vmax;
+    }
+}

@@ -6,6 +6,14 @@
     color: white;
 }
 
+.submitted{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #181f29;
+    color: white;
+}
+
 
 .consultationBox{
     border-radius: 1vmax;
@@ -80,4 +88,57 @@
     position: absolute;
     bottom: 8%;
     left: 44.5%;
+}
+
+@media (max-width:500px){
+
+    .consultationBox{
+        top: 10%;
+    }
+
+    .consultationBox form{
+        flex-direction: column;
+    }
+
+    .consultationBox h1{
+        top: 5%;
+        left: 3%;
+        font-size: 3vmax;
+    }
+
+    .consultationBox p{
+        left: 5%;
+        top: 20%;
+        width: 90%;
+        font-size: 1.5vmax;
+    }
+
+    .consultationBox form{
+        top: 32%;
+       
+    }
+
+    .personalInfo{
+        width: 100%;
+    }
+
+    .personalInfo input{
+        width: 95%;
+        
+    }
+
+    .extraInfo{
+        width: 100%;
+    }
+
+    .extraInfo input{
+        width: 95%;
+    }
+
+    .consultationBox form button{
+        bottom: 15%;
+        width: 50%;
+        left: 25%;
+        font-size: 1.8vmax;
+    }
 }

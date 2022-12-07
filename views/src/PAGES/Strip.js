@@ -31,7 +31,9 @@ function Strip() {
         <video src={vid} autoPlay loop muted></video>
         <div className="strip_card">
             <h2>We basically do Marketing that sells! </h2>
+            <Link to={'/FreeConsultation'}>
             <button className='strip_btn'>Get in Touch</button>
+            </Link>
         </div>
 
         {/* <div className="strip_left">

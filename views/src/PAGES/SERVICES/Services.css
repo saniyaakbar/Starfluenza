@@ -6,7 +6,7 @@
 }
 
 .SPOne{
-    height: 155vh;
+    height: 90vh;
     width: 100%;
 }
 
@@ -53,12 +53,19 @@
     letter-spacing: 0.13vmax;
 }
 
+#SPTwo{
+    position: relative;
+    min-height: 120vh;
+    width: 100%;
+    background-color: #181f29;
+}
+
 .SP_cards{
     height: 35vh;
     width: 70%;
     /* background-color: brown; */
     position: absolute;
-    bottom:-15%;
+    top: 12%;
     left: 15%;
     display: flex;
     justify-content: space-between;
@@ -71,7 +78,7 @@
     width: 55%;
     /* background-color: brown; */
     position: absolute;
-    bottom:-58%;
+    bottom:20%;
     left: 23%;
     display: flex;
     justify-content: space-between;
@@ -177,6 +184,15 @@
     overflow: hidden;
 }
 
+#choose_step_1{
+    position: absolute;
+    top:2%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    font-size: 2vmax;
+    font-family: ogg;
+}
+
 .servicesSeg2_left{
     position: relative;
     height: inherit;
@@ -188,7 +204,7 @@
     height: 70vh;
     position: absolute;
     left: 20%;
-    top: 10%;
+    top: 20%;
 } 
 
 .servicesSeg2_right{
@@ -205,7 +221,7 @@ span{
 .servicesSeg2 .serviceSeg2_text{
     position: absolute;
     padding: 1vmax;
-    top: 12%;
+    top: 24%;
     height: 60vh;
     width: 85%;
     /* background-color: rgb(69, 7, 7); */
@@ -225,12 +241,20 @@ top: 12%;
 
 .servicesSeg2 .serviceSeg2_text h1:nth-child(2) span:nth-child(1){
     /* color: red; */
+    position: absolute;
     font-size: 7vmax;
+    top: -150%;
+    left: -10%;
 }
 
 .servicesSeg2 .serviceSeg2_text h1:nth-child(2){
     /* color: red; */
-    margin-top: 2vmax;
+   top: 22%;
+   left: 5%;
+}
+
+.servicesSeg2 .serviceSeg2_text h1{
+    position: absolute;
 }
 
 .servicesSeg2 .serviceSeg2_text p{
@@ -337,4 +361,180 @@ top: 12%;
 .serviceSeg4_right img{
     height: 34vh;
     margin-right: 5vmax;
+}
+
+#step_1{
+    font-family : ogg; 
+    position : absolute ; 
+    left: 47%;
+    font-size:  2.5vmax ;
+    top : -4%;
+   }
+
+
+
+@media (max-width:500px){
+
+    .SPContainer h1 {
+        position: absolute;
+        top: -6%;
+        left: 5%;
+        font-size: 2.2vmax;
+        font-family: ogg;
+    }
+
+    .SP_card{
+        width: 80%;
+        margin: 3.3vmax;
+    }
+
+    .SPContainer {
+        
+        height: 23vh;
+        width: 95%;
+        margin-left: 1vmax;
+     }
+
+     .SPContainer p{
+        font-size: 1.3vmax;
+     }
+
+     .SPOne{
+        height: 27vh;
+     }
+
+    .servicesSeg3 {
+        position: relative;
+        height: 24vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .servicesSeg3_text h1{
+        font-size: 1.8vmax;
+    }
+    .servicesSeg3_text button {
+        margin-left: 8vmax;
+    }
+    
+    .servicesSeg3{
+        height: 24vh;
+    }
+
+    .servicesSeg2 .serviceSeg2_text h1:nth-child(2) {
+        /* color: red; */
+        margin-top: -15vmax;
+    }
+    
+
+    .servicesSeg2 .serviceSeg2_text h1:nth-child(1) {
+        /* color: red; */
+        font-size: 1.5vmax;
+        position: absolute;
+        left: 3%;
+        top: -22%;
+    }
+
+    .servicesSeg2 .serviceSeg2_text h1:nth-child(2) span:nth-child(1){
+        /* color: red; */
+        position: absolute;
+        font-size: 7vmax;
+        top: -25%;
+        left: 2%;
+    }
+
+    .servicesSeg2_left img {
+        height: 35vh;
+        position: absolute;
+        left: 34%;
+        top: 41%;
+    }
+
+    .serviceSeg4_right img {
+        height: 15vh;
+        margin-right: -26vmax;
+        margin-top: -2vmax;
+    }
+    
+    .servicesSeg4 {
+        
+        flex-direction: column;
+    
+    }
+
+    .SP_cards{
+        top: 4.5%;
+    }
+
+    #choose_step_1{
+        top: 2%;
+        left: 50%;
+    }
+
+    #SPTwo{
+        height: 310vh;
+    }
+
+    .serviceSeg4_text{
+        width: 100%;
+    }
+
+    .SP_cards2 {
+        height: 35vh;
+        width: 71%;
+        bottom: 30%;
+        left: 15%;
+        
+    }
+
+    
+    .serviceSeg4_text h1 {
+        font-family: ogg;
+        line-height: 3vmax;
+        margin-top: -1vmax;
+        font-size: 1.8vmax;
+    }
+
+
+    .serviceSeg2_text_p {
+        position: absolute;
+        top: 81%;
+        left: -48%;
+        width: 94%;
+    }
+
+   #step_1{
+   left: 43%;
+    top : 0%;
+   }
+
+
+    .servicesSeg2 .serviceSeg2_text h1 {
+        font-family: ogg;
+        font-size: 4vmax;
+        width: 99%;
+        margin-top: 24vmax;
+        margin-left: -24vmax;
+    }
+
+    .servicesSeg2 .serviceSeg2_text p {
+        width: 100%;
+        font-size: 1.4vmax;
+    }
+
+    .serviceSeg2_text_p button{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+
+    .SP_back h1{
+        top: 10%;
+    }
+
+    .SP_back p{
+        position: absolute;
+        top: 20%;
+    }
+
 }

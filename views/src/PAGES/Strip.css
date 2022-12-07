@@ -9,6 +9,8 @@
 
 .strip video{
     position: absolute;
+    top: 0%;
+    left: 0%;
     z-index: 1;
     width: 100%;
 }
@@ -150,14 +152,14 @@
 .contactInfo{
     opacity: 0.6;
     top: 68%;
-    left: 46%;
+    left: 44%;
     color: white;
     position: absolute;
 }
 
 #contactNumber{
     top: 74%;
-    right: 3%;
+    left: 45%;
     letter-spacing: 0.1vmax;
 }
 
@@ -177,4 +179,97 @@
 .strip_icon{
     opacity: 0.6;
     margin-bottom: 2vmax;
+}
+
+.strip_btn{
+    right: 45%;
+}
+
+
+@media(max-width:500px){
+
+    .strip{
+        height: 26vh;
+    }
+
+    .footer {
+        height: 35vh;
+    }
+    
+    .strip_card h2{
+        margin-top: 6vmax;
+        font-size: 2.3vmax;
+    }
+
+   .strip .strip_btn{
+       
+        left: 22%;
+        right: 25%;
+    }
+
+
+    
+
+    .footer #icons{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-60%,0%);
+        width: 30%;
+        /* background-color: bisque; */
+    }
+
+    .footer .icon{
+        position: relative;
+        /* background-color: brown; */
+        height: inherit;
+        /* overflow: hidden; */
+    }
+
+    
+    .footer .icon img{
+        
+        height: 6vmax;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        /* height: 9vmax; */
+        /* background-color: #08c0c8; */
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    
+   .footer .footer_left img{
+        position: absolute;
+        /* margin-top: 0;
+        margin-left: 0;
+        margin-right: 0; */
+        top: 50%;
+        margin-top: 0;
+        margin-left: 12vmax;
+        left: 50%;
+        height: 9vmax;
+        transform: translate(50%,-50%);
+        /* background-color: azure; */
+    }
+
+    #contactNumber {
+        top: 62%;
+        right: 20%;
+        transform: translate(-50%,0%);
+    }
+    
+    .contactInfo {
+        top: 53%;
+        left: 27%;
+    }
+    
+    #contact_location {
+        top: 70%;
+        left: 20%;
+    }
+    
+   
 }

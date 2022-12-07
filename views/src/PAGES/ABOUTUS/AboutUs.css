@@ -8,7 +8,7 @@
 
 .AboutSeg1{
     position: relative;
-    height: 270vh;
+    min-height: 270vh;
     width: 100%;
     background-color: #181f29;
 }
@@ -39,13 +39,13 @@
 .eachSegment{
     position: relative;
     display: flex;
-    height: 40vmax;
+    min-height: 40vmax;
     width: 100%;
     justify-content: space-between;
 }
 
 .aboutSegText{
-    height: 30vmax;
+    min-height: 30vmax;
     width: 30%;
     margin-right: 10vmax;
 }
@@ -76,4 +76,65 @@
 .segEven .aboutSegText{
     position: absolute;
     left: 17%;
+}
+
+@media(max-width:500px){
+
+    .AboutSeg1{
+        height: 261vh;
+    }
+
+    .allAboutSeg{
+        top: 7%;
+    }
+
+    .segEven img{
+        position: relative;
+        margin-left: 12vmax;
+    }
+    
+    .segEven .aboutSegText{
+        position: relative;
+        left: 0%;
+    }
+    
+    
+.AboutSeg1 h1{
+    top: 1%;
+    font-size: 3.5vmax;
+   left: 36%;
+}
+.AboutSeg1 h4{
+    left: 23%;
+    top: 3%;
+}
+
+.aboutSegText{
+    margin-top: 2vmax;
+    width: 100%;
+}
+
+.aboutSegText h2{
+   margin-left: 4vmax;
+}
+
+.aboutSegText p{
+    min-height: 9vmax;
+    margin-left: 2vmax;
+}
+
+
+
+.eachSegment{
+    position: relative;
+    flex-direction: column;
+    margin-top: 3vmax;
+}
+
+.segImage{
+    height: 40vmax;
+    width: 63%;
+    margin-left: 8vmax;
+}
+
 }

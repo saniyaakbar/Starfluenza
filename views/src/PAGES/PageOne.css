@@ -59,7 +59,7 @@
 .mainBox_centerText h1{
     text-align: center;
     margin-right: 2vmax;
-    font-size: 4vmax;
+    font-size: 3.5vmax;
     color: white;
     font-family: ogg;
 }
@@ -98,6 +98,7 @@ button:hover{
     color: white;
 }
 
+
 .mainBox_serviceList{
     position: absolute;
     bottom: 7%;
@@ -133,4 +134,38 @@ button:hover{
     color: white;
 }
 
+
+@media (max-width:500px){
+    .mainBox_serviceList p{
+        font-size: 1.3vmax;
+    }
+
+    .mainBox_centerText p{
+        top: 44%;
+        left: 45%;
+    }
+
+    .mainBox_serviceList{
+        left: 0%;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .mainBox_centerText button{
+        left: 29%;
+        top: 68%;
+    }
+
+    .pageOne_MainBox{
+        height: 56vh;
+        top: 35%;
+    }
+    .mainBox_centerText{
+        top: -8%;
+        height: 30vh;
+    }
+
+   
+}
 

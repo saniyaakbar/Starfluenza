@@ -110,3 +110,18 @@
     position: absolute;
 
 }
+
+#step3{
+    font-family: ogg;
+}
+
+
+
+@media (max-width:500px){
+    .services{
+        display: none;
+    }
+
+   
+   
+}

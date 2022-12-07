@@ -14,7 +14,7 @@
     top: 15%;
     left: 5%;
     width: 90%;
-    height: 65vh;
+    min-height: 65vh;
     background-color:#08c0c8;
     display: flex;
     justify-content: space-between;
@@ -79,4 +79,40 @@
     cursor: pointer;
     background-color: #181f29;
 
+}
+
+@media (max-width: 500px){
+
+    .segments{
+        height: 99vh;
+    }
+
+    .segments #segmentTitle{
+        top: -34%;
+        left: 9%;
+        font-size: 2.9vmax
+    }
+
+    .segment_card{
+        width: 100%;
+        height: 37vh;
+    }
+
+    .segment_card img{
+        left: 22%;
+    }
+
+    .segment_card h1{
+        left: 42%;
+        top: 52%;
+    }
+
+    .segment_card_text{
+        top: 65%;
+    }
+
+    .segment_cards{
+        flex-direction: column;
+        top: -23%;
+    }
 }

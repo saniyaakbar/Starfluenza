@@ -22,9 +22,9 @@ function Footer() {
         <img src={logo} alt="" />
       </div>
       <p className='contactInfo'>
-         info@starfluenza.com 
+         brand@starfluenza.com 
       </p>
-      <p id='contactNumber' className='contactInfo'>+91 7979779691</p>
+      <p id='contactNumber' className='contactInfo'>+91 8007136123</p>
       <p id='contact_location' className='contactInfo'>Mumbai, Maharashtra, India</p>
       {/* <div className="footer_right"> */}
       <div id="icons">
