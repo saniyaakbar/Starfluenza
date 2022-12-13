@@ -86,22 +86,30 @@
     flex-wrap: wrap;
 }
 
+
 .SP_card{
     position: relative;
     height: inherit;
     width: 20%;
-    /* background-color: #fff; */
+    /* background-color: #3B8F99; */
     overflow: hidden;
     align-content: center;
-    opacity: 0.6;
+    opacity: 0.8;
     border-radius: 0.3vmax;
     text-align: center;
     margin: 0.5vmax;
     
 }
 
+.SP_content img{
+    /* margin-top: -10%;  */
+    margin-left: -1%;
+}
+
+
 .SP_card2{
     width: 26%;
+    
 }
 
 .SP_card:hover{
@@ -116,11 +124,14 @@
     transform: translate(-50%,-50%);
     position: absolute;
     font-size: 1.5vmax;
+   
+    /* background-color: black; */
 }
 
 .SP_card img{
     width: 100%;
 }
+
 
 
 /* .SP_card {
@@ -141,6 +152,7 @@
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   transition: transform 1s;
   transform-style: preserve-3d;
+  background-color: #3B8F99;
 }
 
 .SP_card:hover .SP_content {
@@ -153,11 +165,13 @@
   position: absolute;
   height: inherit;
   width: 100%;
-  background: white;
+  background-color: #3B8F99;
   /* line-height: 300px; */
   color: #ffffff;
+  display: flex;
+  align-items: center;
   text-align: center;
-  /* font-size: 60px; */
+  font-size: 1.2vmax;
   border-radius: 5px;
   backface-visibility: hidden;
 }
@@ -174,6 +188,7 @@
     margin-bottom: 2vmax;
     top: 15%;
 }
+
 
 .servicesSeg2{
     position: relative;
@@ -196,14 +211,14 @@
 .servicesSeg2_left{
     position: relative;
     height: inherit;
-    width: 50%;
+    width: 42%;
     /* background-color: aquamarine; */
 }
 
 .servicesSeg2_left img{
     height: 70vh;
     position: absolute;
-    left: 20%;
+    left: 2%;
     top: 20%;
 } 
 
@@ -213,9 +228,24 @@
     /* background-color: rgb(168, 127, 255); */
 }
 
+
+
+.step2{
+    font-family : ogg; 
+    font-size : 2.5vmax; 
+    position : absolute; 
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+
 span{
     color: #08c0c8;
     font-size: 2.6vmax;
+}
+
+.serviceSeg2_text span{
+    font-size: 6vmax;
 }
 
 .servicesSeg2 .serviceSeg2_text{
@@ -224,28 +254,25 @@ span{
     top: 24%;
     height: 60vh;
     width: 85%;
+    text-align: left;
     /* background-color: rgb(69, 7, 7); */
 }
 
 .servicesSeg2 .serviceSeg2_text h1{
     font-family: ogg;
+    
 }
 .servicesSeg2 .serviceSeg2_text h1:nth-child(1){
 /* color: red; */
-font-size: 1.5vmax;
+font-size: 2.8vmax;
 position: absolute;
-left: 8%;
+left: 2%;
 top: 12%;
+line-height: 3.5vmax;
+width: 54%;
 
 }
 
-.servicesSeg2 .serviceSeg2_text h1:nth-child(2) span:nth-child(1){
-    /* color: red; */
-    position: absolute;
-    font-size: 7vmax;
-    top: -150%;
-    left: -10%;
-}
 
 .servicesSeg2 .serviceSeg2_text h1:nth-child(2){
     /* color: red; */
@@ -258,13 +285,13 @@ top: 12%;
 }
 
 .servicesSeg2 .serviceSeg2_text p{
-
+    
     width: 40%;
 }
 
 .serviceSeg2_text_p{
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 2%;
     width: 85%;
 }
@@ -293,11 +320,13 @@ top: 12%;
 }
 
 .servicesSeg3_text button{
-    margin-left: 25vmax;
-    margin-top: 3vmax;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
     background-color: transparent;
     color: white;
     border: 1px solid white;
+    opacity: 1;
 }
 
 .servicesSeg3_text button:hover{
@@ -366,14 +395,16 @@ top: 12%;
 #step_1{
     font-family : ogg; 
     position : absolute ; 
-    left: 47%;
+    left: 50%;
+    top: -4%;
+    transform: translate(-50%,0%);
     font-size:  2.5vmax ;
-    top : -4%;
+    
    }
 
 
 
-@media (max-width:500px){
+@media (max-width:700px){
 
     .SPContainer h1 {
         position: absolute;
@@ -413,41 +444,10 @@ top: 12%;
     .servicesSeg3_text h1{
         font-size: 1.8vmax;
     }
-    .servicesSeg3_text button {
-        margin-left: 8vmax;
-    }
+    
     
     .servicesSeg3{
         height: 24vh;
-    }
-
-    .servicesSeg2 .serviceSeg2_text h1:nth-child(2) {
-        /* color: red; */
-        margin-top: -15vmax;
-    }
-    
-
-    .servicesSeg2 .serviceSeg2_text h1:nth-child(1) {
-        /* color: red; */
-        font-size: 1.5vmax;
-        position: absolute;
-        left: 3%;
-        top: -22%;
-    }
-
-    .servicesSeg2 .serviceSeg2_text h1:nth-child(2) span:nth-child(1){
-        /* color: red; */
-        position: absolute;
-        font-size: 7vmax;
-        top: -25%;
-        left: 2%;
-    }
-
-    .servicesSeg2_left img {
-        height: 35vh;
-        position: absolute;
-        left: 34%;
-        top: 41%;
     }
 
     .serviceSeg4_right img {
@@ -487,45 +487,57 @@ top: 12%;
         
     }
 
+    .servicesSeg2_right{
+        width: 100%;
+    }
     
+    .servicesSeg2_left{
+        width: 0%;
+        position: static;
+    }
+
+    .servicesSeg2 .serviceSeg2_text p{
+        width: 100%;
+       
+    }
+
+    .servicesSeg2 .serviceSeg2_text h1:nth-child(1){
+        width: 100%;
+    }
+
+    .serviceSeg2_text_p {
+        top: 30%;
+    }
+
+    .serviceSeg2_text_p button{
+        position: absolute;
+        width: 40%;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+
+    .servicesSeg2 .serviceSeg2_text{
+        top: 54%;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+
+    .servicesSeg2_left img{
+        height: 42vh;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+
+    .step2{
+        top: 3%;
+    }
+
     .serviceSeg4_text h1 {
         font-family: ogg;
         line-height: 3vmax;
         margin-top: -1vmax;
         font-size: 1.8vmax;
-    }
-
-
-    .serviceSeg2_text_p {
-        position: absolute;
-        top: 81%;
-        left: -48%;
-        width: 94%;
-    }
-
-   #step_1{
-   left: 43%;
-    top : 0%;
-   }
-
-
-    .servicesSeg2 .serviceSeg2_text h1 {
-        font-family: ogg;
-        font-size: 4vmax;
-        width: 99%;
-        margin-top: 24vmax;
-        margin-left: -24vmax;
-    }
-
-    .servicesSeg2 .serviceSeg2_text p {
-        width: 100%;
-        font-size: 1.4vmax;
-    }
-
-    .serviceSeg2_text_p button{
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%,0);
     }
 
     .SP_back h1{
@@ -535,6 +547,10 @@ top: 12%;
     .SP_back p{
         position: absolute;
         top: 20%;
+    }
+
+    #step_1{
+        top: 0%;
     }
 
 }

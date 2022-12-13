@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './try.css'
-import image2 from '../ASSETS/demoImage.avif'
-import image3 from '../ASSETS/demoImage2.avif'
-import image4 from '../ASSETS/demoImage3.avif'
-import image5 from '../ASSETS/demoImage4.avif'
-import image6 from '../ASSETS/demoImage5.avif'
-import image7 from '../ASSETS/demoImage6.avif'
+import EventAndMore from '../ASSETS/Events&More.jpg'
+import CelebrityMarketing from '../ASSETS/CelebrityMarketing.png'
+import InfluencerMarketing from '../ASSETS/InfluencerMarketing.png'
 function Try() {
 
     const [services, setServices] = useState([])
@@ -34,14 +31,14 @@ function Try() {
         {
             text: "Influencer Marketing",
             class: "service_card secondary_service_class no_display",
-            image: image4,
+            image: InfluencerMarketing,
             id: "item-2",
             song:"song-2"
         },
         {
             text: "Events, Ads, TVCs, & more",
             class: "service_card secondary_service_class no_display",
-            image: image5,
+            image: EventAndMore,
             id: "item-3",
             song:"song-3"
         }
@@ -82,13 +79,13 @@ function Try() {
                
                 <div className="cards">
                 <label className="card" for="item-1" id="song-1">
-                        <img src={image5} alt="song" />
-                        <h2>Celebrity Marketing</h2>
+                        <img src={CelebrityMarketing} alt="song" />
+                        {/* <h2>Celebrity Marketing</h2> */}
                 </label>
                     {services.map((e,i)=> {
                         return  <label className="card" for={e.id} id={e.song}>
                         <img src={e.image} alt="song" />
-                        <h2>{e.text}</h2>
+                        {/* <h2>{e.text}</h2> */}
                     </label>
                     })}
                     {/* <label className="card" for="item-1" id="song-1">

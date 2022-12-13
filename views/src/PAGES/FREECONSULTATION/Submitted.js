@@ -8,9 +8,9 @@ function Submitted() {
         <Nav/>
 
         <div className="consultationBox">
-        <h1 style={{"font-size":"3vmax" , "margin-top":"10vmax","margin-left":"-3vmax"}}>Hurrey! You took the first step!</h1>
+        <h1 style={{"font-size":"3vmax" ,"width" : "80%", "position" : "absolute", "left" : "50%", "top" : "20%", "transform" : "translate(-50%,0%)"}}>Hurrey! You took the first step!</h1>
         
-        <p style={{"font-size":"1.5vmax" , "margin-top":"12vmax","margin-left":"3vmax"}}>Now sit back and relax. We will contact you soon</p>
+        <p style={{"font-size":"1.5vmax" , "position" : "absolute", "left" : "50%", "top" : "35%", "transform" : "translate(-50%,0%)"}}>Now sit back and relax. We will contact you soon</p>
 
         </div>
         

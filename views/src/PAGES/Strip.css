@@ -83,91 +83,6 @@
     right: 5%;
 }
 
-.footer{
-    position: absolute;
-    z-index: 4;
-    /* bottom: 0%; */
-    height: 60vh;
-    width: 100%;
-    background-color: #131922;
-    /* background-color: #181f29; */
-}
-
-.footer_left{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    top: 25%;
-    left: 3%;
-    width: 12%;
-    /* background-color: rgb(248, 184, 184); */
-}
-
-.footer img{
-    margin-top: -5vmax;
-    margin-left: 41vmax;
-    height: 25vh;
-}
-
-.footer_right{
-    display: flex;
-    position: absolute;
-    right: 8%;
-    height: 70%;
-    width: 40%;
-    background-color: rgb(254, 121, 121);
-}
-
-
-#icons{
-    position: absolute;
-    top: 63%;
-    left: 25%;
-    height: 3vmax;
-    width: 10%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: #fff; */
-}
-
-.icon{
-    position: relative;
-    height: inherit;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    /* border-radius: 50%; */
-    /* background-color: #385b9a; */
-}
-
-.icon img{
-    height:5vmax;
-    font-size: 2vmax;
-
-}
-
-.contactInfo{
-    opacity: 0.6;
-    top: 68%;
-    left: 44%;
-    color: white;
-    position: absolute;
-}
-
-#contactNumber{
-    top: 74%;
-    left: 45%;
-    letter-spacing: 0.1vmax;
-}
-
-#contact_location{
-    top: 80%;
-    left: 44%;
-}
-
 #strip_icons{
     top: 20%;
     right: 0%;
@@ -186,15 +101,59 @@
 }
 
 
+.footer{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-color: #131922;
+    color: white;
+    font-family: product sans;
+}
+
+#footer_logo{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    height: 10vmax;
+}
+
+.footer_details{
+    height: 18vh;
+    width: 60%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%,-50%);
+}
+
+.footer_details p{
+    line-height: 0.8vmax;
+    font-size: 1.2vmax;
+    letter-spacing: 0.08vmax;
+    /* text-align: left; */
+}
+
+.footer_contact{}
+
+#footer_icons{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    width: 15%;
+    /* background-color: rgb(128, 23, 75); */
+}
+
 @media(max-width:500px){
 
     .strip{
         height: 26vh;
     }
 
-    .footer {
-        height: 35vh;
-    }
+   
     
     .strip_card h2{
         margin-top: 6vmax;
@@ -207,69 +166,21 @@
         right: 25%;
     }
 
-
-    
-
-    .footer #icons{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-60%,0%);
-        width: 30%;
-        /* background-color: bisque; */
+    .footer{
+        height: 30vh;
     }
 
-    .footer .icon{
-        position: relative;
-        /* background-color: brown; */
-        height: inherit;
-        /* overflow: hidden; */
+    .footer_details{
+        top: 75%;
     }
 
-    
-    .footer .icon img{
-        
-        height: 6vmax;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        /* height: 9vmax; */
-        /* background-color: #08c0c8; */
-        margin-left: 0;
-        margin-top: 0;
+    #footer_icons{
+        width: 50%;
     }
 
-    
-   .footer .footer_left img{
-        position: absolute;
-        /* margin-top: 0;
-        margin-left: 0;
-        margin-right: 0; */
-        top: 50%;
-        margin-top: 0;
-        margin-left: 12vmax;
-        left: 50%;
-        height: 9vmax;
-        transform: translate(50%,-50%);
-        /* background-color: azure; */
+    .iconImg{
+        height: 4.5vmax;
+        /* background-color: rgb(124, 51, 114); */
     }
-
-    #contactNumber {
-        top: 62%;
-        right: 20%;
-        transform: translate(-50%,0%);
-    }
-    
-    .contactInfo {
-        top: 53%;
-        left: 27%;
-    }
-    
-    #contact_location {
-        top: 70%;
-        left: 20%;
-    }
-    
    
 }

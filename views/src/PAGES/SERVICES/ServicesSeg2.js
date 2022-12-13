@@ -8,13 +8,16 @@ function ServicesSeg2() {
   
   return (
     <div className='servicesSeg2'>
-      <h1 style={{"fontFamily" : "ogg", "fontSize" : "2.5vmax", "position" : "absolute", "left" : "46%"}}>Step 2 :</h1>
+      
+      <h1 className='step2'>Step 2 : Review Your <span>Customised</span> Plan</h1>
+      
+      
         <div className="servicesSeg2_left">
             <img src={image} alt="" />
         </div>
        <div className="servicesSeg2_right">
        <div className="serviceSeg2_text">
-                        <h1>Review Your <span>Customised</span> Plan</h1>
+                        
                         <h1><span>T</span>eamwork makes the dream work, right?</h1>
                         <div className="serviceSeg2_text_p">
                         <p>Check your email inbox for the customised plan we made for you and feel free to get EXCITED!</p>

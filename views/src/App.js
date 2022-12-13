@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './PAGES/Home';
 import { Routes, Route } from "react-router-dom";
-import FreeConsultation from './PAGES/FREECONSULTATION/FreeConsultation';
+import FreeConsultation from './PAGES/FREECONSULTATION/Index';
 import AboutUs from './PAGES/ABOUTUS/AboutUs'
 import Services from './PAGES/SERVICES/Services';
 import Submitted from './PAGES/FREECONSULTATION/Submitted';

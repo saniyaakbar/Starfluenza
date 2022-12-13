@@ -1,15 +1,16 @@
 .team{
     position: relative;
-    height: 125vh;
+    height: 150vh;
     width: 100%;
     background-color: #181f29;
     
 }
 
-.team h1{
+.team>h1{
     position: absolute;
-    top: -7%;
-    left: 30%;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
     font-family: ogg;
     font-size: 3vmax;
     color: white;
@@ -20,129 +21,118 @@
     position: absolute;
     top: 15%;
     left:7%;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 1vmax;
     width: 85%;
     background-color: #131922;
 }
 
 .team_card{
-    border-radius: 0.4vmax;
+    border-radius: 0.3vmax;
     background-size: cover;
     min-height: 50vh;
-    width: 20%;
+    margin-top: -0.3vmax;
+    width: 28%;
+    margin-left: 0vmax;
     background-color: #fff;
-}
-
-.team_card h1{
-    margin-left: -10vmax;
-    font-family: product sans;
-    font-size: 2vmax;
-}
-
-.team_card h2{
-    color: white;
-    margin-top: 4.3vmax;
-    /* margin-left: vmax; */
-}
-
-.team_card p{
-    font-style: italic;
-    color: white;
-}
-
-.team_text{
-    height: 30vh;
-    width: 40%;
-    /* background-color: #fff; */
-}
-
-.team_text:nth-child(1){
-    position: absolute;
-    right: 22%;
-    top: 8%;
-    /* background-color: bisque; */
-}
-
-
-#two{
-    position: absolute;
-    left: 30%;
-    top: 63%;
-    /* background-color: rgb(151, 97, 32); */
+    margin-top: 1vmax;
+    margin-right: 2vmax;
 }
 
 .team_card:nth-child(1){
-    margin-top: 2vmax;
-    background-image: url('../ASSETS/founder/co-founder.jpeg');
-    margin-left: 11vmax;
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-image: url(../ASSETS/founder/co-founder.jpeg);
 }
 
 .team_card:nth-child(2){
-    background-image: url("../ASSETS/founder/founder.jpg");
-    margin-top: -4vmax;
-    margin-left: 60vmax;
-    background-color: rgb(71, 63, 102);
+    background-image: url(../ASSETS/founder/founder.jpg);
 }
+
+.team_card_true{
+    position: relative;
+    margin-left: 2vmax;
+    width: 95%;
+    color: #fff;
+    /* background-color: bisque; */
+    display: flex;
+    text-align: center;
+}
+
+.team_text{
+    /* position: absolute; */
+    margin-top: 3vmax;
+    text-align: left;
+    margin-right: 2vmax;
+    top: 10%;
+    height: 30vh;
+    width: 40%;
+    /* background-color: aquamarine; */
+}
+
+.team_text p{
+    font-style: italic;
+}
+
+.team_card_true:nth-child(2){
+    justify-content: right;
+    /* background-color: rgb(167, 167, 167); */
+}
+
+.team_card_true:nth-child(2) .team_text{
+    /* background-color: antiquewhite; */
+    text-align: right;
+}
+
+.team_card_true:nth-child(2) .team_text p{
+    text-align: left;
+}
+
+.team_text .team_name{
+    font-size: 2vmax;
+    font-weight: 100;
+ }
+
 
 @media (max-width:500px){
 
-    .team{
-        height: 185vh;
+    .team>h1{
+        top: 1%;
     }
 
-    .team h1 {
-        top: 3%;
-        left: 8%;
-    }
-
-    .team_cards{
-        height: 165vh;
-        top: 8%;
-    }
-    
     .team_card{
-        width: 90%;
-        margin-left: -1vmax;
-    }
+        width: 100%;
+        }
 
-
-    .team h1 {
-        top: 3%;
-        left: 8%;
-    }
-    
-    
-    .team_card:nth-child(1) {
-        margin-top: 5vmax;
-        margin-left: 2vmax;
-       
-    }
-    
-    .team_text:nth-child(1){
-        top: 35%;
-    }
-
-    .team_text p{
-        width: 200%;
-        margin-left: -55%;
-        font-size: 1.9vmax;
-    }
-
-    .team h2{
-        margin-top: 5vmax;
-        margin-left: -9vmax;
-    }
-
-    #two {
-       
-        left: 38%;
-        top: 85%;
+        .team_text .team_name{
+           font-size: 3.4vmax;
+        }
         
-    }
+        .team_card_true{
+        flex-direction: column;
+        }
+        
+        .team_text{
+        width: 100%;
+        }
+        
+        .team_cards{
+        top: 8%;
+        }
+        
+        .team{
+        height: 195vh;
+        }
 
-    .team_card:nth-child(2) {
-        margin-top: 33vmax;
-        margin-left: 3vmax;
-    }
+        .team_card_true:nth-child(2){
+            height: 80vh;
+            position: relative;
+            /* background-color: #fff; */
+        }
+        .team_card_true:nth-child(2) .team_text {
+        text-align: left;
+        position: absolute;
+        top: 62%;
+        /* background-color: aquamarine; */
+        }
+      
 }

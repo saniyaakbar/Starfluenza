@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import './FreeConsultation.css'
 import Nav from '../../NAV/Nav'
+import Footer from '../Footer'
 import { useNavigate } from "react-router-dom";
-const { REACT_APP_API_ENDPOINT } = process.env;
+const { REACT_APP_ENDPOINT } = process.env;
+
 
 function FreeConsultation() {
   const navigate = useNavigate();
   
 
   const [userData, setuserData] = useState(    
-    { }
+    { message : ""}
   );
 
   const setuser = (e) => {
@@ -22,7 +24,7 @@ function FreeConsultation() {
     e.preventDefault()
     
     
-      const rawResponse = await fetch(`${REACT_APP_API_ENDPOINT}/userData`, {
+      const rawResponse = await fetch(`${REACT_APP_ENDPOINT}/userData`, {
         method: 'POST',
         mode:"cors",
         headers: {
@@ -50,19 +52,19 @@ function FreeConsultation() {
         <form onSubmit={(e)=>userDataSubmit(e)}>
           <div className="personalInfo">
 
-          <input onChange={setuser} placeholder='Name' type="text" name='name' />
-          <input onChange={setuser} placeholder='Company' type="text" name="company"/>
-          <input onChange={setuser} placeholder='Industry' type="text" name="industry"/>
-          <input onChange={setuser} placeholder='Designation' type="text" name="designation"/>
+          <input required onChange={setuser} value={userData.name} placeholder='Name' type="text" name='name' />
+          <input required onChange={setuser} value={userData.company} placeholder='Company' type="text" name="company"/>
+          <input required onChange={setuser} value={userData.industry} placeholder='Industry' type="text" name="industry"/>
+          <input required onChange={setuser} value={userData.designation} placeholder='Designation' type="text" name="designation"/>
 
           </div>
 
           <div className="extraInfo">
 
-          <input onChange={setuser} placeholder='Email' type="email" name="email"/>
-          <input onChange={setuser} placeholder='Phone Number' type="Number" name="phone"/>
-          <input onChange={setuser} placeholder='Location' type="text" name="location"/>
-          <input onChange={setuser} placeholder='Message (Optional)' type="text" name="message"/>
+          <input required onChange={setuser} value={userData.email} placeholder='Email' type="email" name="email"/>
+          <input required onChange={setuser} value={userData.phone} placeholder='Phone Number' type="tel" name="phone"/>
+          <input required onChange={setuser} value={userData.location} placeholder='Location' type="text" name="location"/>
+          <input onChange={setuser} value={userData.message} placeholder='Message (Optional)' type="text" name="message"/>
 
           </div>
 
@@ -72,6 +74,7 @@ function FreeConsultation() {
 
         </div>
         
+      
     </div>
   )
 }

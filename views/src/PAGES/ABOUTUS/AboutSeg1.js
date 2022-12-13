@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import image1 from '../../ASSETS/demoImage2.avif'
-import image2 from '../../ASSETS/demoImage3.avif'
-import image3 from '../../ASSETS/demoImage4.avif'
+import image1 from '../../ASSETS/founder/Ourvision.png'
+import image2 from '../../ASSETS/founder/OurMission.png'
+import image3 from '../../ASSETS/founder/Ourprocess.png'
 
 
 function AboutSeg1() {

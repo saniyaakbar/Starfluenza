@@ -91,9 +91,11 @@ button{
     font-size: 1.2vmax;
     border-radius: 1.3vmax;
     background-color:#08c0c8;
+    opacity: 1;
 }
 
 button:hover{
+    opacity: 1;
     cursor: pointer;
     color: white;
 }
@@ -136,6 +138,11 @@ button:hover{
 
 
 @media (max-width:500px){
+
+    .pageOne{
+        height: 67vh;
+    }
+
     .mainBox_serviceList p{
         font-size: 1.3vmax;
     }
@@ -155,6 +162,7 @@ button:hover{
     .mainBox_centerText button{
         left: 29%;
         top: 68%;
+        opacity: 1;
     }
 
     .pageOne_MainBox{
@@ -163,9 +171,16 @@ button:hover{
     }
     .mainBox_centerText{
         top: -8%;
+        margin-top: 0vmax;
+        left: 5%;
         height: 30vh;
     }
 
+    #logo img {
+        height: 4.4vmax;
+        margin-top: 2vmax;
+        margin-left: 12vmax;
+    }
    
 }
 

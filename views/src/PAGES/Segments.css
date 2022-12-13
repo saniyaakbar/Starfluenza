@@ -84,35 +84,64 @@
 @media (max-width: 500px){
 
     .segments{
-        height: 99vh;
+        height: 184vh;
     }
 
-    .segments #segmentTitle{
-        top: -34%;
-        left: 9%;
-        font-size: 2.9vmax
+    .segments #segmentTitle {
+        top: 0%;
+        left: 16%;
+        font-size: 2.9vmax;
     }
-
     .segment_card{
         width: 100%;
-        height: 37vh;
+        height: 50vh;
+        margin-top: 3vmax;
+    }
+
+    .segment_card:nth-child(1){
+        margin-bottom: 3vmax;
     }
 
     .segment_card img{
+        top: 0%;
         left: 22%;
     }
+        
 
     .segment_card h1{
-        left: 42%;
-        top: 52%;
+        font-size:3vmax;
+        left: 50%;
+        top: 41%;
+        transform: translate(-50%, 0%);
     }
 
     .segment_card_text{
-        top: 65%;
+        top: 54%;
+        
     }
 
     .segment_cards{
         flex-direction: column;
-        top: -23%;
+        top: 6%;
     }
+
+    .segment_card p{
+        font-size: 1.8vmax;
+        
+    }
+        
+
+
+
+
+    
+      
+      
+      
+      
+      
+      
+      
+     
+
 }

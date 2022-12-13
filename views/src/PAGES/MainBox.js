@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import logo from '../ASSETS/logo.png'
 import star from '../ASSETS/star.png'
-import vid from '../ASSETS/mainVideo.mp4'
+import vid from '../ASSETS/compressedVideoMain.m4v'
 import {Link} from 'react-router-dom'
 
 function MainBox() {
@@ -38,7 +38,7 @@ function MainBox() {
                 <p>One celebrity at a time</p>
 
                 <Link to={'/FreeConsultation'}>
-                <button>Get in Touch</button>
+                <button style={{"outline" : "none"}}>Get in Touch</button>
                 </Link>
             </div>
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./Services.css"
 
-import vid from '../../ASSETS/MoonVid2.mp4'
+import vid from '../../ASSETS/Compressedmoonvideo4.m4v'
 
 
 function SPOne() {

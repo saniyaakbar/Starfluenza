@@ -71,7 +71,7 @@ a:hover{
 }
 
 #logo img{
-    height: 5.5vmax;
+    height: 3vmax;
     margin-top: 1vmax;
     margin-left: 3vmax;
 }
@@ -199,6 +199,7 @@ margin-right: 3vmax;
       
 
     #menubtn button {
+        opacity: 1;
         cursor: pointer;
         position: absolute;
         right: 1%;

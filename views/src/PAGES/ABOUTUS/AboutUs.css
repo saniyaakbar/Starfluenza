@@ -1,6 +1,6 @@
 .AboutUs{
     position: relative;
-    height: 300vh;
+    height: 250vh;
     width: 100%;
     background-color: #181f29;
     color: white;
@@ -8,10 +8,10 @@
 
 .AboutSeg1{
     position: relative;
-    min-height: 270vh;
+    min-height: 200vh;
     width: 100%;
     background-color: #181f29;
-}
+} 
 
 .AboutSeg1 h1{
     position: absolute;
@@ -24,7 +24,7 @@
 .AboutSeg1 h4{
     position: absolute;
     left: 41%;
-    top: 3.5%;
+    top: 5%;
     letter-spacing: 0.13vmax;
     /* font-size: 3vmax; */
     font-family: ogg;
@@ -39,15 +39,20 @@
 .eachSegment{
     position: relative;
     display: flex;
-    min-height: 40vmax;
+    margin-top: 1vmax;
+    /* background-color: antiquewhite; */
+    min-height: 25vmax;
     width: 100%;
     justify-content: space-between;
 }
 
 .aboutSegText{
-    min-height: 30vmax;
-    width: 30%;
+    min-height: 20vmax;
+    width: 50%;
+    /* background-color: aquamarine; */
     margin-right: 10vmax;
+    margin-top: 5vmax;
+    
 }
 
 .aboutSegText h2{
@@ -71,11 +76,16 @@
 .segEven img{
     position: absolute;
     right: 10%;
+    top: 50%;
+    transform: translate(0%,-55%);
 }
 
 .segEven .aboutSegText{
     position: absolute;
     left: 17%;
+    top: 50%;
+    margin-top: 0;
+    transform: translate(0%,-50%);
 }
 
 @media(max-width:500px){
@@ -91,12 +101,17 @@
     .segEven img{
         position: relative;
         margin-left: 12vmax;
+        margin-top: 20vmax;
     }
     
     .segEven .aboutSegText{
         position: relative;
         left: 0%;
     }
+
+.allAboutSeg{
+    top: 10%;
+}
     
     
 .AboutSeg1 h1{
@@ -121,6 +136,7 @@
 .aboutSegText p{
     min-height: 9vmax;
     margin-left: 2vmax;
+    text-align: justify;
 }
 
 
@@ -135,6 +151,7 @@
     height: 40vmax;
     width: 63%;
     margin-left: 8vmax;
+    margin-top: -19vmax;
 }
 
 }

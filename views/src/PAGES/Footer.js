@@ -18,21 +18,30 @@ function Footer() {
 
   return (
     <div className='footer'>
-      <div className="footer_left">
-        <img src={logo} alt="" />
-      </div>
-      <p className='contactInfo'>
-         brand@starfluenza.com 
-      </p>
-      <p id='contactNumber' className='contactInfo'>+91 8007136123</p>
-      <p id='contact_location' className='contactInfo'>Mumbai, Maharashtra, India</p>
-      {/* <div className="footer_right"> */}
-      <div id="icons">
+
+      <div className="footer_details">
+      <div id="footer_icons">
         {
           icons.map((e, i) => <div key={i} className='icon'><Link key={i} to="/"><img className='iconImg' src={e} alt="" /></Link></div>)
         }
 
       </div>
+        <div className="footer_contact">
+        <p className='contactInfo'>
+          brand@starfluenza.com
+        </p>
+        <p id='contactNumber' className='contactInfo'>+91 8007136123</p>
+        <p id='contact_location' className='contactInfo'>Mumbai, Maharashtra, India</p>
+        </div>
+      </div>
+      <img id='footer_logo' src={logo} alt="" />
+
+      {/* <div className="footer_left">
+        
+      </div> */}
+
+      {/* <div className="footer_right"> */}
+     
       {/* </div> */}
     </div>
   )

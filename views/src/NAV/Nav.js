@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect, useRef, useState } from 'react'
 import './Nav.css'
-import logo from '../ASSETS/logo.png'
+import logo from '../ASSETS/LOGO/website logo.png'
 import { NavLink, Link } from "react-router-dom"
 import menu from '../ASSETS/LOGOS/menu.png'
 

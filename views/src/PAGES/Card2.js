@@ -1,6 +1,6 @@
 import React from 'react'
 import './Segments.css'
-import image1 from '../ASSETS/demo.png'
+import image1 from '../ASSETS/leads.png'
 
 function Card1() {
     return (
